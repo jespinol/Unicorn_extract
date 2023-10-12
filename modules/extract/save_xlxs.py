@@ -4,9 +4,9 @@ import openpyxl.chart.label
 import openpyxl.utils.cell
 import pandas as pd
 
-from modules.constants import *
-from modules.helpers import find_peak
-from modules.plotting import *
+from modules.extract.constants import *
+from modules.extract.helpers import find_peak
+from modules.extract.plotting import *
 
 
 def generate_xlsx(input_filename, a260, a280, ratio):

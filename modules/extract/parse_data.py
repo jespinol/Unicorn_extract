@@ -1,8 +1,8 @@
 from decimal import *
 
-from modules.constants import *
-from modules.pycorn import pc_uni6
-from modules.helpers import *
+from modules.extract.constants import *
+from modules.extract.pycorn import pc_uni6
+from modules.extract.helpers import *
 
 
 def decode(input_file):
