@@ -4,8 +4,8 @@ import openpyxl.chart.label
 import openpyxl.utils.cell
 import pandas as pd
 
-from modules.extract.constants import *
-from modules.extract.helpers import find_peak
+from modules.constants import *
+from modules.helpers import find_peak
 from modules.extract.plotting import *
 
 
